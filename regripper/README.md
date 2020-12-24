@@ -9,5 +9,6 @@ $ podman build . -t regripper
 ```bash
 $ # alias for easy usage
 $ echo "alias rip='podman run --privileged --rm -v .:/data:ro regripper'" >> .bashrc
+$ rip -r /data/<registry file> -p <plugin name>
 ```
 
